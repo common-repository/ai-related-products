@@ -1,0 +1,80 @@
+* {
+	box-sizing: border-box;
+}
+.single-template-wrapper #primary article .st-woo-ai-rel-products .woocommerce ul.products li.product a,
+.st-woo-ai-rel-products .woocommerce ul.products li.product a {
+	text-decoration: none;
+} 
+.st-woo-ai-rel-products ul.products {
+    display: grid;
+    grid-column-gap: 30px;
+    grid-row-gap: 30px;
+}
+.st-woo-ai-rel-products .woocommerce ul.products > div.product,
+.st-woo-ai-rel-products .woocommerce ul.products > article.product,
+.st-woo-ai-rel-products .woocommerce ul.products li.product,
+.st-woo-ai-rel-products ul.products li.product {
+	width: 100%;
+	position: relative;
+}
+.st-woo-ai-rel-products ul.column-1 {
+	grid-template-columns: 1fr;
+}
+.st-woo-ai-rel-products .woocommerce ul.products::before,
+.st-woo-ai-rel-products .woocommerce ul.products::after {
+    content: none;
+}
+
+@media screen and (min-width: 768px) {
+    .st-woo-ai-rel-products ul.column-6,
+    .st-woo-ai-rel-products ul.column-4,
+    .st-woo-ai-rel-products ul.column-2,
+    .st-woo-ai-rel-products ul.column-5,
+    .st-woo-ai-rel-products ul.column-3 {
+  		grid-template-columns: repeat(2, 1fr);
+    }
+}
+
+@media screen and (min-width: 992px) {
+    .st-woo-ai-rel-products ul.column-2 {
+  		grid-template-columns: repeat(2, 1fr);
+    }
+    .st-woo-ai-rel-products ul.column-3 {
+  		grid-template-columns: repeat(3, 1fr);
+    }
+    .st-woo-ai-rel-products ul.column-4 {
+  		grid-template-columns: repeat(4, 1fr);
+    }
+    .st-woo-ai-rel-products ul.column-5 {
+  		grid-template-columns: repeat(4, 1fr);
+    }
+    .st-woo-ai-rel-products ul.column-6 {
+  		grid-template-columns: repeat(4, 1fr);
+    }
+}
+
+@media screen and (min-width: 1024px) {
+	.st-woo-ai-rel-products ul.column-5 {
+  		grid-template-columns: repeat(5, 1fr);
+    }
+    .st-woo-ai-rel-products ul.column-6 {
+  		grid-template-columns: repeat(6, 1fr);
+    }
+}
+
+@media screen and (max-width: 991px) {
+    .st-woo-ai-rel-products ul.products {
+        grid-column-gap: 20px;
+		grid-row-gap: 20px;
+    }
+}
+@media screen and (max-width: 767px) {
+	.st-woo-ai-rel-products ul.column-6,
+	.st-woo-ai-rel-products ul.column-5,
+	.st-woo-ai-rel-products ul.column-4,
+	.st-woo-ai-rel-products ul.column-3,
+	.st-woo-ai-rel-products ul.column-2 {
+		grid-template-columns: repeat(1, 1fr);
+	}
+}
+

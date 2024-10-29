@@ -1,0 +1,321 @@
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: AI Related Products 1.0.0\n"
+"POT-Creation-Date: 2024-10-17 22:05+0545\n"
+"PO-Revision-Date: 2020-07-21 14:18+0545\n"
+"Last-Translator: \n"
+"Language-Team: \n"
+"Language: en\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+"X-Generator: Poedit 3.4.4\n"
+"X-Poedit-Basepath: ..\n"
+"X-Poedit-KeywordsList: __;_e;_x;_ex;_n;_nx;_n_noop;transate_nooped_plural;"
+"esc_html__;esc_html_e;esc_html_x;esc_attr__;esc_attr_e;esc_attr_x;"
+"number_format_i18n;date_i18n\n"
+"X-Poedit-SearchPath-0: .\n"
+
+#: ai-related-products.php:72
+msgid ""
+"WooCommerce AI Related Product Plugin is a supportive addon for "
+"WooCommerce. Please install and activate the WooCommerce plugin."
+msgstr ""
+
+#: ai-related-products.php:73
+msgid "Install WooCommerce"
+msgstr ""
+
+#: include/core.php:82
+msgid "Settings"
+msgstr ""
+
+#: include/elementor.php:31 include/elementor.php:186 include/setting.php:38
+#: include/setting.php:39
+msgid "AI Related Products"
+msgstr ""
+
+#: include/elementor.php:58
+msgid "AI Related Products Settings"
+msgstr ""
+
+#: include/elementor.php:66
+msgid "Number of Products"
+msgstr ""
+
+#: include/elementor.php:77
+msgid "Column Layout"
+msgstr ""
+
+#: include/elementor.php:81
+msgid "One Column"
+msgstr ""
+
+#: include/elementor.php:82
+msgid "Two Columns"
+msgstr ""
+
+#: include/elementor.php:83
+msgid "Three Columns"
+msgstr ""
+
+#: include/elementor.php:84
+msgid "Four Columns"
+msgstr ""
+
+#: include/elementor.php:93
+msgid "Sort By"
+msgstr ""
+
+#: include/elementor.php:97
+msgid "Random"
+msgstr ""
+
+#: include/elementor.php:98
+msgid "Date"
+msgstr ""
+
+#: include/elementor.php:107
+msgid "Include Cart Items for Reference"
+msgstr ""
+
+#: include/elementor.php:108
+msgid ""
+"Allow filtering of products based on products that have been added to "
+"cart by user or visitor."
+msgstr ""
+
+#: include/elementor.php:110
+msgid "Yes"
+msgstr ""
+
+#: include/elementor.php:111
+msgid "No"
+msgstr ""
+
+#: include/elementor.php:187
+msgid "This message is only visible in editor"
+msgstr ""
+
+#: include/setting.php:49
+msgid "Single Product Page Related Products"
+msgstr ""
+
+#: include/setting.php:50
+msgid "Single Product Page"
+msgstr ""
+
+#: include/setting.php:58
+msgid "Products Recommendation Details"
+msgstr ""
+
+#: include/setting.php:59
+msgid "Component"
+msgstr ""
+
+#: include/setting.php:103
+msgid "WooCommerce Single Product Page's Related Products Settings "
+msgstr ""
+
+#: include/setting.php:103 include/setting.php:111
+msgid "Documentation"
+msgstr ""
+
+#: include/setting.php:103 include/setting.php:111
+msgid "Upgrade To Pro"
+msgstr ""
+
+#: include/setting.php:111
+msgid "Gutenberg Block, Elementor Widget and Shortcode Information "
+msgstr ""
+
+#: include/setting.php:183
+msgid "Your settings will be saved when you click the Save Changes button."
+msgstr ""
+
+#: include/setting.php:190
+msgid "Replace Default Related Products With Plugin's Related Products"
+msgstr ""
+
+#: include/setting.php:203
+msgid "Include Cart Products as a Reference to Filter Related Products"
+msgstr ""
+
+#: include/setting.php:216
+msgid "Number of Recently Ordered/Purchased Products as a Reference"
+msgstr ""
+
+#: include/setting.php:221
+msgid ""
+"Only one recently ordered/purchased product is set as a filter reference "
+"in free version. Upgrade to pro version to get input option to set "
+"multiple number value."
+msgstr ""
+
+#: include/setting.php:228
+msgid "Number of Related Products ( Min = 1, Max = 6 )"
+msgstr ""
+
+#: include/setting.php:243
+msgid "Number of Layout Columns ( Min = 1, Max = 3 )"
+msgstr ""
+
+#: include/setting.php:261
+msgid "Gutenberg Block (Only in Pro Version)"
+msgstr ""
+
+#: include/setting.php:262
+msgid ""
+"Add AI Related Products anywhere in your site through block. Since "
+"WordPress has moved to Full Site Editing and supports blocks since "
+"version 5.0. We have added the AI Related Products Block for your "
+"convenience. Since you are familiar with blocks, you will be able to add "
+"this block in any page and widget area. You can customize the settings "
+"and attributes to filter the product list."
+msgstr ""
+
+#: include/setting.php:265
+msgid "Elementor Widget (Limited in Free Version)"
+msgstr ""
+
+#: include/setting.php:266
+msgid ""
+"If you are using Elementor, add AI Related Products anywhere in your site "
+"through Elementor Widget. Since Elementor is the most popular page "
+"builder plugin in WordPress. We have added the AI Related Products widget "
+"for your convenience. As you are familiar with Elementor, you will be "
+"able to add this widget in any page. You can customize the settings and "
+"attributes to filter the product list."
+msgstr ""
+
+#: include/setting.php:269
+msgid "Shortcode (Limited in Free Version)"
+msgstr ""
+
+#: include/setting.php:270
+msgid ""
+"This plugin supports shorcode to add AI Related Products anywhere in your "
+"site. Shortcode is an easy way to add a dynamic content to your page. You "
+"can use it in blocks, widgets and classical editor. You can customize the "
+"content with the attributes that are supported in shortcode."
+msgstr ""
+
+#: include/setting.php:271
+msgid "Default Shortcode with default attributes:"
+msgstr ""
+
+#: include/setting.php:273
+msgid "List of attributes that are supported in shortcode."
+msgstr ""
+
+#: include/setting.php:275
+msgid "Column Layout ( Optional ) :"
+msgstr ""
+
+#: include/setting.php:276
+msgid ""
+"Column possibilities are 1, 2, 3, 4, 5 and 6 (the default is \"3,\" so "
+"choose one of these)."
+msgstr ""
+
+#: include/setting.php:277
+msgid "Note: In free version, you can only have 1, 2, 3 and 4 columns."
+msgstr ""
+
+#: include/setting.php:278
+msgid "Products Sort ( Optional ) :"
+msgstr ""
+
+#: include/setting.php:279
+msgid ""
+"Sorting possibilities are rand(random) and date(starting from latest) "
+"(the default is \"rand,\" so choose one of these)."
+msgstr ""
+
+#: include/setting.php:280
+msgid "Enable Slider ( Optional ) :"
+msgstr ""
+
+#: include/setting.php:281
+msgid "carousel instead of grid. Options : yes / no (the default is \"no\")"
+msgstr ""
+
+#: include/setting.php:282 include/setting.php:287 include/setting.php:296
+msgid "Note: This attribute is only available in Pro Version."
+msgstr ""
+
+#: include/setting.php:283
+msgid "Include Cart Products For Reference ( Optional ) :"
+msgstr ""
+
+#: include/setting.php:284
+msgid ""
+"Include items from the shopping cart to filter the related products. "
+"Options : yes / no (the default is \"no\")"
+msgstr ""
+
+#: include/setting.php:285
+msgid "Include Watched Products For Reference ( Optional ) :"
+msgstr ""
+
+#: include/setting.php:286
+msgid ""
+"Include items that were visited by the visitor to filter the related "
+"products. Options : yes / no (the default is \"no\")"
+msgstr ""
+
+#: include/setting.php:288
+msgid "Number of Products ( Optional ) :"
+msgstr ""
+
+#: include/setting.php:289
+msgid ""
+"Set the number of products to display. Options: As you prefer (the "
+"default is \"6\")"
+msgstr ""
+
+#: include/setting.php:290
+msgid "Note: In free version, you can only have upto 8 products."
+msgstr ""
+
+#: include/setting.php:291
+msgid "Number of Recently Ordered Products ( Optional ) :"
+msgstr ""
+
+#: include/setting.php:292
+msgid ""
+"Set 1 as a reference to filter products by most recently ordered/"
+"purchased item, 2 for two most recently ordered/purchased items, and so "
+"on. For all ordered/purchased items, leave it empty. (the default is "
+"empty)"
+msgstr ""
+
+#: include/setting.php:293
+msgid ""
+"Note: This attribute is only available in Pro Version. In free version, 1 "
+"is set in built."
+msgstr ""
+
+#: include/setting.php:294
+msgid "Additional Meta Filters ( Optional ) :"
+msgstr ""
+
+#: include/setting.php:295
+msgid ""
+"Further, filter the products by choosing only those that are on sale, "
+"featured, or are the best-selling. Options: sale / featured / best-"
+"selling. (the default is empty, so choose one of these)"
+msgstr ""
+
+#: include/setting.php:297
+msgid "Shortcode with all attributes."
+msgstr ""
+
+#: include/setting.php:299
+msgid ""
+"Note: If you want some attributes to have default value, then you don't "
+"have to add it in the shortcode. You can use multiple shortcode with "
+"multiple settings anywhere in your site."
+msgstr ""
